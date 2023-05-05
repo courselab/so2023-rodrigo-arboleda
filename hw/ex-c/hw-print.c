@@ -25,6 +25,6 @@ int __attribute__((fastcall, naked)) printhw(const char* s)
         char_p = s[count_s];
     }
 
-    return char_p;
+    return count_s;
 
 }
